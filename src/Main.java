@@ -14,7 +14,7 @@ public class Main extends Application {
 
 
     @Override
-    public void start (Stage stage) {
+    public void start (Stage stage) throws BrowserException {
         // create program specific components
         BrowserModel model = new BrowserModel();
         BrowserView display = new BrowserView(model, "English");

@@ -37,4 +37,5 @@
 .text-field {
     -fx-font-size: 14pt;
     -fx-font-family: "Segoe UI Semibold";
+    -fx-background-color: #66FF66;
 }
